@@ -1,0 +1,14 @@
+# HFSS Simulation Results and Caches (avoids 100MB+ GitHub file limits)
+*.aedtresults/
+*.aedtresults/**
+*.aedtz
+*.lock
+*.temp
+*.auto
+*.asol
+*.bck
+
+# Windows OS Files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
