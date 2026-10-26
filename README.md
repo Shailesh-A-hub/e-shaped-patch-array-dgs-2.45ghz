@@ -15,7 +15,7 @@ The project traces the complete evolutionary design cycle from a baseline single
 | **Design 2** | 2x1 Patch Array (Solid Ground) | 2.450 | -15.50 | 60.0 (2.45%) | 5.50 | 8.20 | 51.5% | Gain boosted via array factor |
 | **Design 3** | 2x1 Array + DGS (No Inset) | 2.465 | -14.20 | 89.6 (3.64%) | 5.80 | 8.70 | 52.0% | Wideband DGS, but shifted +15 MHz high |
 | **Design 4** | 2x1 Array + DGS + Inset Feed | 2.445 | -16.83 | 86.4 (3.53%) | 6.30 | 9.09 | 52.60% | 100% ISM band coverage (Verified Baseline) |
-| **Design 8** | **2x1 E-Shaped Array + DGS (Final)** | **2.445** | **-19.08** | **83.7 (3.42%)** | **6.53** | **9.12** | **55.08%** | **Highest Gain, Best Matching, Peak Efficiency** |
+| **Design 8** | **2x1 E-Shaped Array + DGS (Final)** | **2.445** | **-18.66** | **84.1 (3.44%)** | **6.53** | **9.12** | **55.08%** | **Highest Gain, Best Matching, 100% Strict ISM Coverage (2.3997–2.4838 GHz)** |
 
 ---
 
@@ -46,13 +46,13 @@ The project traces the complete evolutionary design cycle from a baseline single
 - **Folder**: `designs/4/`
 
 ### 5. Design 8: 2x1 E-Shaped Patch Array with Defected Ground Structure (Final Proposed)
-- **Configuration**: Dual symmetrical rectangular parallel slots (E-slots: L_eslot = 15 mm, W_eslot = 2 mm, spacing S_eslot = 7 mm) etched into the top radiating edge of each patch, combined with DGS ground slots and fine-tuned patch dimensions (l = 37.78 mm).
+- **Configuration**: Dual symmetrical rectangular parallel slots (E-slots: L_eslot = 15 mm, W_eslot = 2 mm, spacing S_eslot = 7 mm) etched into the top radiating edge of each patch, combined with DGS ground slots and fine-tuned patch dimensions (l = 37.79 mm).
 - **Intended Use**: High-performance, high-efficiency, planar directional terminal for modern 2.45 GHz wireless systems and IoT gateways where maximum gain and power transfer efficiency are critical.
 - **Novelty**:
   1. **Hybrid E-Slot and DGS Integration**: Combining top-side E-shaped patch perturbation with bottom-side DGS creates a complex current path that optimizes current concentration along the outer patch arms.
   2. **Enhanced Radiation Efficiency**: Increased radiation efficiency to **55.08%** (+2.48% improvement over Design 4), overcoming typical dielectric losses in commercial FR4.
   3. **Peak Gain Maximization**: Achieved the highest gain across all designs at **6.53 dBi** (Directivity = **9.12 dBi**).
-  4. **Superior Impedance Matching**: Achieved return loss of **-19.08 dB** at 2.4450 GHz (VSWR ≈ 1.25, accepted power > 98.8%), with the 83.7 MHz operational band aligned across the 2.45 GHz ISM spectrum.
+  4. **Strict 100% ISM Band Coverage**: S11 return loss of **-18.66 dB** at 2.4450 GHz (VSWR ≈ 1.26), with the **84.1 MHz operating bandwidth spanning from 2.3997 GHz to 2.4838 GHz**, strictly enclosing the entire 2.4000 GHz to 2.4835 GHz ISM band.
 - **Folder**: `designs/8/`
 
 ---
@@ -66,7 +66,7 @@ The project traces the complete evolutionary design cycle from a baseline single
 - **Substrate Dimensions (SubX x SubY)**: 140 mm x 70 mm
 - **Patch Spacing (d)**: 70 mm (~0.57 lambda0 at 2.45 GHz)
 - **Patch Width (w)**: 37.41 mm
-- **Patch Length (l)**: 37.78 mm
+- **Patch Length (l)**: 37.79 mm
 - **50 Ohm Feed Line Width (wf1)**: 3.02 mm
 - **Quarter-Wave Transformer Width (w70)**: 2.0 mm
 - **Quarter-Wave Transformer Length (l70)**: 15.15 mm

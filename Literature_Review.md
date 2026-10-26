@@ -42,7 +42,7 @@ The table below compiles empirical results from peer-reviewed antenna research p
 | **Suresh & Rao (2023)** | Int. J. RF & Microwave CAE | 2x1 Corporate Array with DGS | Rogers RO4003C (eps_r = 3.55, h = 1.52 mm) | 2.45 | 95.0 (3.88%) | 6.80 | ~76.0% | High performance achieved, but relies on expensive low-loss Rogers substrate |
 | **Kaur & Sivia (2024)** | Wireless Personal Comm. | Dual-Slot Patch Antenna with Inset Feed | FR4 (eps_r = 4.4, h = 1.6 mm) | 2.45 | 72.0 (2.94%) | 4.60 | ~50.2% | Standard thickness FR4; no ground defects; narrow bandwidth |
 | **Proposed Work (Design 4)** | Baseline Reference (This Project) | 2x1 Patch Array + DGS + Inset Feed | FR4 (eps_r = 4.4, h = 2.4 mm) | **2.445** | **86.4 (3.53%)** | **6.30** | **52.60%** | Full ISM band coverage (2.398-2.485 GHz); verified baseline |
-| **Proposed Work (Design 8)** | **Proposed Final Work (This Project)** | **2x1 E-Shaped Array + DGS + Inset Feed** | **FR4 (eps_r = 4.4, h = 2.4 mm)** | **2.445** | **83.7 (3.42%)** | **6.53** | **55.08%** | **Highest gain (6.53 dBi) and efficiency (55.08%) on low-cost thick FR4** |
+| **Proposed Work (Design 8)** | **Proposed Final Work (This Project)** | **2x1 E-Shaped Array + DGS + Inset Feed** | **FR4 (eps_r = 4.4, h = 2.4 mm)** | **2.445** | **84.1 (3.44%)** | **6.53** | **55.08%** | **Highest gain (6.53 dBi), efficiency (55.08%), and 100% strict ISM coverage (2.3997–2.4838 GHz)** |
 
 ---
 
